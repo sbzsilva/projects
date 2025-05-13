@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Vocareum Lab Auto Renew",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Automatically renews lab sessions 10 minutes before expiration",
   "content_scripts": [{
     "matches": ["https://labs.vocareum.com/*"],
