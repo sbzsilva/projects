@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Manage Assessments</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Create Assessment</h1>
+    <form id="assessmentForm">
+        <label>Assessment ID: <input type="text" id="assessmentID" required /></label><br/>
+        <label>Course ID: <input type="text" id="courseID" required /></label><br/>
+        <label>Type: <input type="text" id="type" required /></label><br/>
+        <label>Title: <input type="text" id="title" required /></label><br/>
+        <label>Max Score: <input type="number" id="maxScore" required /></label><br/>
+        <label>Due Date: <input type="date" id="dueDate" /></label><br/>
+        <button type="submit">Create Assessment</button>
+    </form>
+    <div id="assessmentList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

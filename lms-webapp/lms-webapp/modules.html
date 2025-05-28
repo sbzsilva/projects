@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Manage Modules</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Create Module</h1>
+    <form id="moduleForm">
+        <label>Module ID: <input type="text" id="moduleID" required /></label><br/>
+        <label>Course ID: <input type="text" id="courseID" required /></label><br/>
+        <label>Title: <input type="text" id="title" required /></label><br/>
+        <label>Order: <input type="number" id="moduleOrder" required /></label><br/>
+        <label>Content: <textarea id="content"></textarea></label><br/>
+        <button type="submit">Create Module</button>
+    </form>
+    <div id="moduleList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

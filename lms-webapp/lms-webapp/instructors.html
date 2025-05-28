@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Manage Instructors</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Instructor Registration</h1>
+    <form id="instructorForm">
+        <label>Instructor ID: <input type="text" id="instructorID" required /></label><br/>
+        <label>First Name: <input type="text" id="firstName" required /></label><br/>
+        <label>Last Name: <input type="text" id="lastName" required /></label><br/>
+        <label>Email: <input type="email" id="email" required /></label><br/>
+        <label>Department: <input type="text" id="department" /></label><br/>
+        <label>Hire Date: <input type="date" id="hireDate" /></label><br/>
+        <button type="submit">Register Instructor</button>
+    </form>
+    <div id="instructorList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

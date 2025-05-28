@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Course Management</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Add New Course</h1>
+    <form id="courseForm">
+        <label>Course ID: <input type="text" id="courseID" required /></label><br/>
+        <label>Title: <input type="text" id="title" required /></label><br/>
+        <label>Description: <textarea id="description"></textarea></label><br/>
+        <label>Credits: <input type="number" id="credits" /></label><br/>
+        <label>Instructor ID: <input type="text" id="instructorID" required /></label><br/>
+        <label>Category ID: <input type="text" id="categoryID" /></label><br/>
+        <label>Start Date: <input type="date" id="startDate" /></label><br/>
+        <label>End Date: <input type="date" id="endDate" /></label><br/>
+        <button type="submit">Add Course</button>
+    </form>
+    <div id="courseList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

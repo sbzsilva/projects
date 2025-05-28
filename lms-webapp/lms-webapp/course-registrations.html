@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Course Registrations</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Course Registrations</h1>
+    <form id="registrationForm">
+        <label>Registration ID: <input type="text" id="registrationID" required /></label><br/>
+        <label>Student ID: <input type="text" id="studentID" required /></label><br/>
+        <label>Course ID: <input type="text" id="courseID" required /></label><br/>
+        <label>Start Date: <input type="date" id="startDate" required /></label><br/>
+        <label>End Date: <input type="date" id="endDate" required /></label><br/>
+        <label>Type (enrollment/subscription): <input type="text" id="type" required /></label><br/>
+        <button type="submit">Register</button>
+    </form>
+    <div id="registrationList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

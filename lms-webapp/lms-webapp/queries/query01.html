@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Query 1: Most Enrolled Courses</title>
+    <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+    <h1>Courses with Most Enrollments This Month</h1>
+    <table id="results">
+        <thead>
+            <tr>
+                <th>Course ID</th>
+                <th>Title</th>
+                <th>Enrollment Count</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <a href="../index.html">Back to Dashboard</a>
+    <script src="../script.js"></script>
+    <script>
+        fetchData('/api/query1', 'results');
+    </script>
+</body>
+</html>
